@@ -1,0 +1,134 @@
+:root{
+    --Soft-orange: #e9ab53;
+    --Soft-red: #f15e50;
+
+    --Off-white: #fffdfa;
+    --Grayish-blue: #c5c6ce;
+    --Dark-grayish-blue: #5d5f79;
+    --Very-dark-blue: #00001a;
+}
+
+/* PARTE 1 */
+
+#container-1{
+    display: flex;
+    width: 86vw;
+    margin: auto;
+}
+
+#img-principal img{
+    width: calc(60vw - 20px);
+}
+
+#text-principal{
+    display: flex;
+    width: 60vw;
+}
+
+#text-principal h1, #text-botao p{
+    width: 29vw;
+}
+
+#text-principal h1{
+    color: var(--Very-dark-blue);
+    font-size: 3.8rem;
+    line-height: 60px;
+}
+
+#text-botao p{
+    color: var(--Dark-grayish-blue);
+    margin: 50px 0px;
+}
+
+#text-botao a{
+    text-decoration: none;
+    color: var(--Off-white);
+    background-color: var(--Soft-red);
+    padding: 10px 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#text-botao a:hover{
+    background-color: var(--Very-dark-blue);
+}
+
+/* PARTE 2 */
+
+
+#part-2{
+    width: 30vw;
+    background-color: var(--Very-dark-blue);
+    color: var(--Grayish-blue);
+    height: 85vh;
+    padding: 0px 20px;
+}
+
+#part-2 H2{
+    color: var(--Soft-orange);
+    font-size: 40px;
+}
+
+#part-2 H3{
+    color: var(--Off-white);
+}
+
+#barras{
+    border-top: 1px solid var(--Grayish-blue);
+    border-bottom: 1px solid var(--Grayish-blue);
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+
+@media (max-width: 1200px){
+    #container-1{
+        display: block;
+    }
+
+    /* PARTE 1 */
+
+    #img-principal img{
+        width: 86vw;
+    }
+
+    #text-principal{
+        width: 86vw;
+        justify-content: space-between;
+    }
+
+    #text-principal h1, #text-botao p{
+        width: 43vw;
+    }
+
+    /* PARTE 2 */
+
+    #part-2{
+        width: 80vw;
+        height: 75vh;
+        margin-bottom: 50px;
+    }
+
+    #part-2 h2{
+        position: relative;
+        top: 15px;
+    }
+
+
+}
+
+@media (max-width: 800px){
+
+    /* PARTE 1 */
+
+    #text-principal{
+        display: block;
+        text-align: center;
+    }
+
+    #text-principal h1, #text-botao p{
+        width: 80vw;
+    }
+}
+

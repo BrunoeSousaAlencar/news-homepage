@@ -24,6 +24,10 @@ header{
     margin: 50px 80px;
 }
 
+p{
+    font-size: 17px;
+}
+
 #menu a{
     margin-left: 30px;
     text-decoration: none;
@@ -32,5 +36,20 @@ header{
 
 #menu a:hover{
     color: var(--Soft-red);
+}
+
+#icone-menu{
+    display: none;
+}
+
+@media (max-width: 700px){
+
+    #icone-menu{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
 }
 
