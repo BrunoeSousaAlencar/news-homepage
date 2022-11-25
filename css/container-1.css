@@ -134,7 +134,7 @@
 
     #text-principal{
         display: block;
-        text-align: center;
+        
     }
 
     #text-principal h1, #text-botao p{
@@ -172,7 +172,11 @@
         width: 80vw;
         padding: 0px 10px;
         margin: auto;
-        height: 78vh;
+        
+    }
+
+    #barras{
+        padding: 10px 0px;
     }
 }
 
