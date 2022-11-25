@@ -70,13 +70,18 @@
     padding: 0px 20px;
 }
 
-#part-2 H2{
+#part-2 h2{
     color: var(--Soft-orange);
     font-size: 40px;
 }
 
-#part-2 H3{
+#part-2 h3{
     color: var(--Off-white);
+    cursor: pointer;
+}
+
+#part-2 h3:hover{
+    color: var(--Soft-orange);
 }
 
 #barras{

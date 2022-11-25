@@ -40,6 +40,16 @@ p{
 
 #icone-menu{
     display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#mobile-menu a{
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+    font-weight: 600;
+    display: none;
 }
 
 @media (max-width: 700px){
@@ -54,6 +64,14 @@ p{
 
     #menu{
         display: none;
+    }
+
+    #mobile-menu a{
+        display: none;
+    }
+
+    .open{
+        display: block;
     }
 }
 
